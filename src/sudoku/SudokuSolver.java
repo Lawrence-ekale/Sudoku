@@ -65,7 +65,7 @@ public class SudokuSolver {
 
 	private static boolean isNumberInBox(int [][] board, int number,int row,int column)
 	{
-		int localBoxRow = row -  row % 3; //check this later row % 3
+		int localBoxRow = row -  row % 3;
 		int localBoxColumn = column - column % 3;
 		
 
